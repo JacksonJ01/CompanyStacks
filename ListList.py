@@ -126,6 +126,12 @@ class LinkedList:
         self.dis_elm()
         return "All values have been removed"
 
+    def show(self):
+        if self.head is None:
+            return None
+        elif self.head is not None:
+            return self.head.data
+
     #
     #
     #

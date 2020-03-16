@@ -11,5 +11,8 @@ class Stack:
     def pop(self):
         return self.stack.rem_front()
 
-    def peak(self):
+    def peek(self):
         return self.stack.display()[-1]
+
+    def head(self):
+        return self.stack.show()
